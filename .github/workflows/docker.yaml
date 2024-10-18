@@ -130,7 +130,7 @@ jobs:
         
             name_space_prefix=""
             if [[ -n "${name_space}" ]]; then
-              name_space_prefix="${name_space}/"
+              name_space_prefix="${name_space}\/"
             fi
             # 如果镜像名重名
             # if [[ -n "${duplicate_images[$image_name]}" ]]; then
